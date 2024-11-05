@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Web App</title>
+<link rel="styleSheet" href="/static/style.css"/>
+</head>
+<body>
+<h1>ESI_SBA</h1><br>
+<img src="/static/esi-sba_im.jpg" width="600px" height="200px" alt="ESI-SBA; CISCo_LABRI"/>
+<h1>Personne</h1><br>
+
+  {% for entry in entries %}
+      <h3>{{ entry }}</h3>
+  {% endfor %}
+<h2>  Control personne</h2>
+
+</body>
+</html>
